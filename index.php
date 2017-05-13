@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="appearance/css/font-awesome.css">	
-    <link rel="stylesheet" type="text/css" href="appearance/css/stylenew.css">       
+    <link rel="stylesheet" type="text/css" href="appearance/css/style.css">       
     <title>My Project</title>
    </head>     
 <body>
@@ -29,7 +29,7 @@
   <section class="showcase">
      
       <div class="tree_products">
-     
+          <? require_once 'includes/categories.php' ?>
       </div>
       <div class="products">
           <ul class="product">
