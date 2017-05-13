@@ -11,6 +11,6 @@ return 's:' . strlen($m[2]) . ':"' . $m[2] . '";';
 foreach ($pages as $page) {
 	if ($page->visible) {
 	echo "<li><a href=$page->url>$page->name</a></li>";
-}
-}
+} 
+} echo "<li><a href='?controller=register'>Регистрация</a></li>";
 ?>
